@@ -147,12 +147,12 @@
  			oTax = dfDouble3v2.format(cTax);
  			oSubTotal = dfDouble3v2.format(cSubTotal);
  			oTotal = dfDouble3v2.format(cTotal);
-      oDiscountPercentage = dfDouble3v2.format(cDiscountPercentage) // added by David Moore
+      oDiscountPercentage = dfDouble3v2.format(cDiscountPercentage); // added by David Moore
 
  			System.out.println("First Toy Price: $" + oPrice1);
  			System.out.println("Second Toy Price: $" + oPrice2);
  			System.out.println("SubTotal Price: $" + oSubTotal);
-      System.out.println("Discount Price: $" + oDiscountPercentage) // added by David Moore
+      System.out.println("Discount Price: $" + oDiscountPercentage); // added by David Moore
  			System.out.println("Tax: $" + oTax);
  			System.out.println("Total Price: $" + oTotal);
 
