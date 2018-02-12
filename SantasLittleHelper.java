@@ -25,14 +25,25 @@
  	static String oSubTotal;
  	static String oTax;
  	static String oTotal;
+<<<<<<< HEAD
 
+=======
+
+
+>>>>>>> c276b26d98f7468e4c21792f3c0c0084d09148ac
  	static double iPrice1;
  	static double iPrice2;
  	static double cSubTotal;
  	static double cTax;
  	static double cTotal;
+<<<<<<< HEAD
 
 
+=======
+ 	static double cDiscountPercentage;
+
+
+>>>>>>> c276b26d98f7468e4c21792f3c0c0084d09148ac
  	static Scanner scanner;
 
  	static DecimalFormat dfInt3, dfDouble3v2;
