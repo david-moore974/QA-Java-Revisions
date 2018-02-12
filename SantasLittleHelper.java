@@ -1,5 +1,5 @@
 /*
- * David Moore/HAYDEN HOGUE
+ * David Moore/HAYDEN HOGUE/Caleb Kisling
  *	12/04/17
  *	make a program from chaipin chart
  *
