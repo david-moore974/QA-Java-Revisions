@@ -139,6 +139,7 @@
  	}
 
  	public static void output(){
+    String oDiscountPercentage;
  		System.out.println("MERRY CHRISTMASS!");
  		System.out.println("Name: " + iFirst + " " + iLast);
  		try {
