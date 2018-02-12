@@ -26,11 +26,13 @@
  	static String oTax;
  	static String oTotal;
  	
+ 	
  	static double iPrice1;
  	static double iPrice2;
  	static double cSubTotal;
  	static double cTax;
  	static double cTotal;
+ 	static double cDiscountPercentage;
  	
  	
  	static Scanner scanner;
@@ -97,6 +99,20 @@
  			iPrice1 = 1.00;
  			
  		}
+ 		
+ 		System.out.println("Please Enter Discount Percentage");
+ 		iData = scanner.next();
+ 		
+ 		
+ 		 		
+ 		try{
+ 			cDiscountPercentage = Double.parseDouble(iData);
+ 		}
+ 		catch(Exception e){
+ 			System.out.println("Invalid Discount Percentage entered. Qty assigned a value of 20%");
+ 			cDiscountPercentage = 20;
+ 		}
+ 		
  	
  		System.out.println("Second Toy Name");
  		iToy2 = scanner.next();
