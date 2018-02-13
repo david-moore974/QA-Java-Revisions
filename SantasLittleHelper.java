@@ -130,8 +130,7 @@
  	}
 
  	public static void calcs(){
-
- 		cSubTotal = iPrice1 + iPrice2;
+		cSubTotal = (iPrice1 + iPrice2) * (cDiscountPercentage / 100);
  		cTax = cSubTotal * .07;
  		cTotal = cSubTotal + cTax;
 
